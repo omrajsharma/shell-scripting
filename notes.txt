@@ -1,0 +1,76 @@
+# Print statement
+echo "hello world"
+
+# Change mode 
+chmod +x test.sh
+chmod 777 test.sh
+( first 7 for user, second 7 for user group and last 7 for everyone) UGO
+
+0  =  0  = nothing
+1  =  1  = execute
+2  =  2  = write
+3  = 2+1  = w+x
+4  = 4    = read
+5  = 4+1  = r+e
+6  = 4+2  = r+w
+7  = 4+2+1 = rwx
+
+# Shell 
+the shell is a command line interpreter. It translates commands entered by the user and convert them into language that is understood by the kernel.
+
+comments in shell starts with (#)
+
+types of shell 
+- bourne shell
+-  c shell 
+
+# Variables
+A variable is a charater string to which we assign a value. The value assigned could be a number, text, fiilename, device, or any other type of data.
+
+types of variables
+- local variable
+- environmental variable
+- shell variables
+
+Special variables
+$0
+$1.....9
+$#
+$*
+$
+$?
+$$
+
+# Basic operators
+
+Types of operators
+- Arithemetic
+- Relational
+- Boolean
+- String 
+- File Test
+
+# Shell Loops
+
+Types:
+- While
+- For
+- Until
+- Nested
+- Loop
+
+# Function
+- Creating function
+- Passing parameters
+- Returning
+- Nested
+- Function call from prompt
+
+
+# Use cases
+PROJECTS BUILDING Coming...
+
+
+
+
+
